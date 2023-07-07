@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .input {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .button {
+    outline: none;
+ cursor: pointer;
+ border: none;
+ padding: 1;
+ margin: 0;
+ font-family: inherit;
+ font-size: inherit;
+ position: relative;
+ display: inline-block;
+ letter-spacing: 0.05rem;
+ font-weight: 700;
+ font-size: 15px;
+ border-radius: 500px;
+ overflow: hidden;
+ background: #0c0c0c;
+ color: ghostwhite;
+  }
+  
+  .button:hover {
+    background-color: #ffffff;
+    color: #080808;
+    font-weight: bold;
+  }
+  
